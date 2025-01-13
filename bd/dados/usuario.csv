@@ -1,0 +1,56 @@
+"id","nome","email","senha","adm","prof"
+1,"Mizael Martins Barreto","mizael.martins@unesp.br","$2y$10$ztX3400bvkTYjyXzrUdrv.yFCR74HzbWTBcYyb1XRUnrtSteV/rKW",True,False
+3,"Heitor Lima dos Santos Cunha","heitor.lima@unesp.br","$2y$10$CDmJe/rrxClLWNFyzLpl0e08ZhWuAv/glWBmVw1Vf2NYhzYzwXJkW",True,False
+18,"Jeferson André Bigheti","Jeferson.An.Bigheti@unesp.br","Jeferson André",False,True
+19,"Daniel Zarpelão Porcel","Daniel.Zar.Porcel@unesp.br","Porcel",False,True
+20,"Maurício Augusto de Souza Ruiz","Mauricio.Au.Ruiz@unesp.br","Maurício Ruiz",False,True
+21,"Paulo Rogério Pichelli","Paulo.Rog.Pichelli@unesp.br","Paulo Pichelli",False,True
+22,"José Eduardo Alves de Oliveira","Jose.Ed.Oliveira@unesp.br","José Eduardo Alves",False,True
+23,"Francisco Paez Neto","Francisco.P.Neto@unesp.br","Francisco Paez",False,True
+24,"Antonio José Rosa Junior","Antonio.R.Junior@unesp.br","Antonio Rosa",False,True
+25,"Adriana da Silva Reghine Giorjão","Adriana.S.Giorjão@unesp.br","Adriana Giorjão",False,True
+26,"Marcelo Antonio Minorello","Marcelo.An.Minorello@unesp.br","Marcelo Minorello",False,True
+27,"Jair Hilário Zorzi Junior","Jair.H.Junior@unesp.br","Jair Hilário",False,True
+28,"Jovita Mercedes Hojas Baenas","Jovita.M.Baenas@unesp.br","Jovita Mercedes",False,True
+29,"Camilla Celeste Koga Campos","Camilla.C.Campos@unesp.br","Camilla Celeste",False,True
+30,"Claudio Martius Giaretta Doria Vieira","Claudio.M.Vieira@unesp.br","Claudio Martius",False,True
+31,"Maria Cornelia Nogueira Paratella Franco","Maria.C.Franco@unesp.br","Maria Cornelia",False,True
+32,"João Alberto Zago Bevenuto","Joao.A.Bevenuto@unesp.br","João Zago",False,True
+33,"Elvis de Souza Malta","Elvis.S.Malta@unesp.br","Elvis Souza",False,True
+34,"Giovanni Silva Tek","Giovanni.S.Tek@unesp.br","Giovanni Tek",False,True
+35,"Anderson Luiz Pereira","Anderson.L.Pereira@unesp.br","Anderson Luiz",False,True
+36,"Marcus Vinicius Gonçalves Vismara","Marcus.V.Vismara@unesp.br","Marcus Vinicius",False,True
+37,"Ricardo Pessoa dos Santos","Ricardo.P.Santos@unesp.br","Ricardo Pessoa",False,True
+38,"Lismaria Polato Francelin","Lismaria.P.Francelin@unesp.br","Lismaria Francelin",False,True
+39,"Christine Vieira Da Maia Areias","Christine.V.Areias@unesp.br","Christine Vieira",False,True
+40,"Maria Cândida Correa","Maria.C.Correa@unesp.br","Maria_Cândida",False,True
+41,"Maria Regina Momesso","Maria.R.Momesso@unesp.br","Maria_Regina",False,True
+42,"Carmen Regina de Souza","Carmen.R.Souza@unesp.br","Carmen_Regina",False,True
+43,"Neivaldo Fernando Strutzel Saggin","Neivaldo.F.Saggin@unesp.br","Neivaldo_Strutzel",False,True
+44,"Daniela Mancuso Roda","Daniela.M.Roda@unesp.br","Daniela_Mancuso",False,True
+45,"Francis Gabriel dos Santos Constante","Francis.G.Constante@unesp.br","Francis_Constante",False,True
+46,"Flávio Henrique Simão Saraiva","Flavio.H.Saraiva@unesp.br","Flávio_Simão",False,True
+47,"Luiz Eduardo Comin","Luiz.Ed.Comin@unesp.br","Luiz_Comin",False,True
+48,"Kátia Lívia Zambon","Katia.L.Zambon@unesp.br","Kátia_Zambon",False,True
+49,"Rafael Junqueira Martarelli","Rafael.J.Martarelli@unesp.br","Rafael_Junqueira",False,True
+50,"Debora Barbosa Aires","Debora.B.Aires@unesp.br","Debora_Aires",False,True
+51,"Marcelo Cabello Peres","Marcelo.C.Peres@unesp.br","Marcelo_Cabello",False,True
+52,"Vitor Assis Camargo","Vitor.A.Camargo@unesp.br","Vitor_Camargo",False,True
+53,"André Luiz Ribeiro Bicudo","Andre.L.Bicudo@unesp.br","André_Bicudo",False,True
+54,"José Vieira Junior","Jose.V.Junior@unesp.br","José_Vieira",False,True
+55,"Osmar Souza Boico","Osmar.S.Boico@unesp.br","Osmar_Boico",False,True
+56,"Fernando Marcos Carneiro","Fernando.M.Carneiro@unesp.br","Fernando_Carneiro",False,True
+57,"Lívio Marcos Josué","Livio.M.Josue@unesp.br","Lívio_Josué",False,True
+58,"Washington Luiz Bueno da Silva","Washington.L.Silva@unesp.br","Washington_Luiz",False,True
+59,"Mateus Dóta de Lima","Mateus.D.Lima@unesp.br","Mateus_Dóta",False,True
+60,"André Luis da Costa Rocha","Andre.L.Rocha@unesp.br","André_Rocha",False,True
+61,"Marcelo Rodrigues da Silva Pelissari","Marcelo.R.Pelissari@unesp.br","Marcelo_Pelissari",False,True
+62,"Guilherme Toshio de Jesus","Guilherme.T.Jesus@unesp.br","Guilherme_Toshio",False,True
+64,"Luis Alberto Llontop Vásquez","luis.alberto@unesp.br","123",False,True
+66,"yuri","yuri.r.oliveira@unesp.br","$2y$10$Xv7jcHc3LgitJBkqe9Yc6eIsEYt9hJWg5mb/23oEFLnvqwonxImX6",True,False
+67,"yuri ribeiro","yuriribeirooliveira0506@gmail.com","$2y$10$iKPMleP4qfcQAI/MY1tg1e3OeIQlPzT7xSB9kMyOHXrW6vEjTIDcu",False,True
+68,"Sticker Aleatório 02","heitormarioluigi@gmail.com","$2y$10$7tDWGPWfOtoGrclJrOsNuu0BjYRjlLeR6cHT7tLEYGuGFFPtqcmd6",False,True
+69,"Sticker de Demon Slayer 01","ass@ass.com","$2y$10$5jZ/GQiTC2cn7O8dLCIUIOUNmcHMjBsk9X9Zmcd2GzdvOrU4OJ60u",False,True
+70,"Sticker Van Gogh 39","123@122.com","$2y$10$g56hCPkp8g0F3JyUqW.squZyC.tiFB90RERxTUwxuxpQCH0ra0JTW",False,True
+72,"Sticker de Capivara 18","44@33.com","$2y$10$TcurbFDGK8dgZOXql96NdekgtUdcpiCOVjg2NralMVOI/Ft7vQIJW",False,True
+75,"Heitor","heitormariolugi@gmail.com","$2y$10$2GGXST1b41r8/WNzgM54Uu3ha7WVQuHWMPMdromj.gbF5j2TAX7XK",False,True

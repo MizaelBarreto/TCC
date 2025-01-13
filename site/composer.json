@@ -1,0 +1,20 @@
+{
+    "name": "mto/site",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        } 
+    },
+    "authors": [
+        {
+            "name": "Haydam",
+            "email": "haydan@projetoscti.com.br"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6",
+        "guzzlehttp/guzzle": "^7.9",
+        "pecee/simple-router": "^5.4"
+    }
+}

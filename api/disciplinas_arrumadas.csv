@@ -1,0 +1,287 @@
+,id_atribucao,d_descricao,sd_descricao,aulas_semana,id_professor,nome_professor,turma_com_ind,qntd_lab,lab
+0,3685,Espanhol Avançado ,Turma Única,2,142,Luis Alberto Llontop Vásquez,DEL,0,
+1,3681,Espanhol Básico T1,Turma Única,2,142,Luis Alberto Llontop Vásquez,DEL,0,
+2,3682,Espanhol Básico T2,Turma Única,2,142,Luis Alberto Llontop Vásquez,DEL,0,
+3,3683,Espanhol Intermediário T1,Turma Única,2,142,Luis Alberto Llontop Vásquez,DEL,0,
+4,3684,Espanhol Intermediário T2,Turma Única,2,142,Luis Alberto Llontop Vásquez,DEL,0,
+5,3680,Eletrotécnica Geral,Turma Única,7,153,Jeferson André Bigheti,ELE1,1,7
+6,3625,Fundamentos da Matemática,Turma Única,2,96,Daniel Zarpelão Porcel,ELE1,0,
+8,3455,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,ELE1,0,
+9,3384,Normas Técnicas e de Segurança,Turma Única,1,89,Paulo Rogério Pichelli,ELE1,0,
+10,2967,Eletrônica Básica,Turma Única,5,22,José Eduardo Alves de Oliveira,ELE2,0,
+11,3690,Eletrotécnica Geral,Turma Única,2,83,Francisco Paez Neto,ELE2,0,
+13,3702,Informática Aplicada,Turma Única,2,8,Antonio José Rosa Junior,ELE2,1,5
+14,3688,Informática Aplicada,Turma Única,2,83,Francisco Paez Neto,ELE2,1,5
+15,3675,Laboratório de Eletrônica Básica,Turma Única,4,153,Jeferson André Bigheti,ELE2,1,7
+16,2965,Redação Técnica,Turma Única,1,4,Adriana da Silva Reghine Giorjão,ELE2,0,
+17,3214,Sistemas Digitais II,Turma Única,3,28,Marcelo Antonio Minorello,ELE2,1,8
+18,3647,Eletrônica Industrial,Turma Única,4,70,Jair Hilário Zorzi Junior,ELE3,0,
+19,3433,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,ELE3,0,
+20,3494,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,ELE3,0,
+21,3648,Laboratório de Eletrônica Industrial,Turma Única,3,70,Jair Hilário Zorzi Junior,ELE3,1,9
+22,3651,Laboratório de Sistemas Microprocessados,Turma Única,3,126,Claudio Martius Giaretta Doria Vieira,ELE3,2,"7,8"
+23,3652,Sistemas Microprocessados,Turma Única,2,126,Claudio Martius Giaretta Doria Vieira,ELE3,0,
+24,3700,Telecomunicações,Turma Única,2,8,Antonio José Rosa Junior,ELE3,0,
+26,2932,Arte,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,ELI1,0,
+27,3423,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,ELI1,0,
+28,3486,Educação Física,Turma Única,2,139,Elvis de Souza Malta,ELI1,0,
+29,3695,Eletrotécnica Geral,Turma Única,7,154,Giovanni Silva Tek,ELI1,1,7
+30,3391,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,ELI1,0,
+31,3529,Física,Turma Única,2,116,Marcus Vinicius Gonçalves Vismara,ELI1,0,
+32,3613,Fundamentos da Matemática,Turma Única,2,117,Ricardo Pessoa dos Santos,ELI1,0,
+33,3443,Geografia,Turma Única,1,99,Lismaria Polato Francelin,ELI1,0,
+34,3415,História,Turma Única,2,124,Christine Vieira Da Maia Areias,ELI1,0,
+35,3456,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,ELI1,0,
+36,3501,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,ELI1,0,
+37,2948,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,ELI1,0,
+38,3474,Matemática,Turma Única,3,117,Ricardo Pessoa dos Santos,ELI1,0,
+39,3385,Normas Técnicas e de Segurança,Turma Única,1,89,Paulo Rogério Pichelli,ELI1,0,
+40,3403,Química,Turma Única,2,106,Carmen Regina de Souza,ELI1,0,
+41,2936,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,ELI1,0,
+42,3424,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,ELI2,0,
+43,3487,Educação Física,Turma Única,2,139,Elvis de Souza Malta,ELI2,0,
+44,2968,Eletrônica Básica,Turma Única,5,22,José Eduardo Alves de Oliveira,ELI2,0,
+45,3691,Eletrotécnica Geral,Turma Única,2,83,Francisco Paez Neto,ELI2,0,
+47,3392,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,ELI2,0,
+48,3532,Física,Turma Única,2,116,Marcus Vinicius Gonçalves Vismara,ELI2,0,
+49,3444,Geografia,Turma Única,2,99,Lismaria Polato Francelin,ELI2,0,
+50,3416,História,Turma Única,2,124,Christine Vieira Da Maia Areias,ELI2,0,
+51,3703,Informática Aplicada,Turma Única,2,8,Antonio José Rosa Junior,ELI2,1,5
+53,3502,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,ELI2,0,
+54,2954,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,ELI2,0,
+55,3464,Matemática,Turma Única,3,96,Daniel Zarpelão Porcel,ELI2,0,
+56,2919,Química,Turma Única,2,35,Neivaldo Fernando Strutzel Saggin,ELI2,0,
+57,2957,Redação Técnica,Turma Única,1,31,Maria Regina Momesso,ELI2,0,
+58,2937,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,ELI2,0,
+59,2914,Biologia,Turma Única,2,13,Daniela Mancuso Roda,ELI3,0,
+60,3657,Eletrônica Industrial,Turma Única,4,70,Jair Hilário Zorzi Junior,ELI3,0,
+61,3393,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,ELI3,0,
+62,3476,Física,Turma Única,3,141,Francis Gabriel dos Santos Constante,ELI3,0,
+63,3445,Geografia,Turma Única,2,99,Lismaria Polato Francelin,ELI3,0,
+64,3434,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,ELI3,0,
+65,2928,História,Turma Única,2,20,Flávio Henrique Simão Saraiva,ELI3,0,
+66,3495,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,ELI3,0,
+67,2958,Língua Portuguesa e Literatura,Turma Única,4,4,Adriana da Silva Reghine Giorjão,ELI3,0,
+68,3462,Matemática,Turma Única,4,96,Daniel Zarpelão Porcel,ELI3,0,
+69,2915,Química,Turma Única,3,35,Neivaldo Fernando Strutzel Saggin,ELI3,0,
+70,3655,Sistemas Microprocessados,Turma Única,2,126,Claudio Martius Giaretta Doria Vieira,ELI3,0,
+71,2938,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,ELI3,0,
+72,3701,Telecomunicações,Turma Única,2,8,Antonio José Rosa Junior,ELI3,0,
+74,2888,Elementos de Lógica,Turma Única,2,26,Luiz Eduardo Comin,INF1,0,
+75,3626,Fundamentos da Matemática,Turma Única,2,96,Daniel Zarpelão Porcel,INF1,0,
+76,3583,Laboratório de Informática Aplicada,Turma Única,2,130,José Vieira Junior,INF1,1,"3,4,13"
+77,3459,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,INF1,0,
+78,2902,Linguagem de Programação I - Python,Turma Única,2,24,Kátia Lívia Zambon,INF1,1,3
+79,2887,Matemática Aplicada,Turma Única,2,26,Luiz Eduardo Comin,INF1,0,
+80,3388,Normas Técnicas e de Segurança,Turma Única,1,89,Paulo Rogério Pichelli,INF1,0,
+81,2966,Redação Técnica,Turma Única,1,4,Adriana da Silva Reghine Giorjão,INF1,0,
+82,3636,Aplicativos I,Turma Única,3,151,Rafael Junqueira Martarelli ,INF2,1,"4,5,6,13"
+83,3597,Banco de Dados,Turma Única,3,125,Debora Barbosa Aires,INF2,1,"4,5,6,13"
+84,3590,Desenvolvimento Web - PHP,Turma Única,3,118,Marcelo Cabello Peres ,INF2,1,"4,5,6,13"
+85,3436,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,INF2,0,
+86,3607,Linguagem de Programação II - C#,Turma Única,3,152,Vitor Assis Camargo,INF2,1,"4,5,6,13"
+87,3594,Linguagem de Programação III - JAVA,Turma Única,2,125,Debora Barbosa Aires,INF2,1,"4,5,6,13"
+88,3610,Sistemas Operacionais,Turma Única,2,152,Vitor Assis Camargo,INF2,1,"4,5,6,13"
+89,3632,Análise e Projeto de Sistemas,Turma Única,3,151,Rafael Junqueira Martarelli ,INF3,1,"5,6"
+90,3637,Aplicativos II,Turma Única,2,151,Rafael Junqueira Martarelli ,INF3,1,"5,6"
+91,3437,Gestão de Negócios II,Turma Única,2,23,Jovita Mercedes Hojas Baenas,INF3,0,
+92,3496,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,INF3,0,
+93,3230,Linguagem de Programação IV - C#,Turma Única,3,7,André Luiz Ribeiro Bicudo,INF3,1,"5,6"
+94,3600,Linguagem de Programação VI - Java,Turma Única,3,125,Debora Barbosa Aires,INF3,1,"5,6"
+95,3591,Linguagem de Programação V - PHP,Turma Única,3,118,Marcelo Cabello Peres ,INF3,1,"5,6"
+96,2933,Arte,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI1A,0,
+97,3425,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,INI1A,0,
+98,3488,Educação Física,Turma Única,2,139,Elvis de Souza Malta,INI1A,0,
+99,2889,Elementos de Lógica,Turma Única,2,26,Luiz Eduardo Comin,INI1A,0,
+100,3394,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,INI1A,0,
+101,3480,Física,Turma Única,2,141,Francis Gabriel dos Santos Constante,INI1A,0,
+102,3612,Fundamentos da Matemática,Turma Única,2,117,Ricardo Pessoa dos Santos,INI1A,0,
+103,3446,Geografia,Turma Única,1,99,Lismaria Polato Francelin,INI1A,0,
+104,3417,História,Turma Única,2,124,Christine Vieira Da Maia Areias,INI1A,0,
+105,3577,Laboratório de Informática Aplicada,Turma Única,2,130,José Vieira Junior,INI1A,1,"3,4,13"
+106,3457,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,INI1A,0,
+107,2903,Linguagem de Programação I - Python,Turma Única,2,24,Kátia Lívia Zambon,INI1A,1,3
+108,3503,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,INI1A,0,
+109,2949,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,INI1A,0,
+110,3471,Matemática,Turma Única,3,117,Ricardo Pessoa dos Santos,INI1A,0,
+111,2890,Matemática Aplicada,Turma Única,2,26,Luiz Eduardo Comin,INI1A,0,
+112,3386,Normas Técnicas e de Segurança,Turma Única,1,89,Paulo Rogério Pichelli,INI1A,0,
+113,3406,Química,Turma Única,2,106,Carmen Regina de Souza,INI1A,0,
+114,2955,Redação Técnica,Turma Única,1,31,Maria Regina Momesso,INI1A,0,
+115,2939,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI1A,0,
+116,2934,Arte,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI1B,0,
+117,3426,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,INI1B,0,
+118,3489,Educação Física,Turma Única,2,139,Elvis de Souza Malta,INI1B,0,
+119,2891,Elementos de Lógica,Turma Única,2,26,Luiz Eduardo Comin,INI1B,0,
+120,3395,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,INI1B,0,
+121,3483,Física,Turma Única,2,141,Francis Gabriel dos Santos Constante,INI1B,0,
+122,3611,Fundamentos da Matemática,Turma Única,2,117,Ricardo Pessoa dos Santos,INI1B,0,
+123,3447,Geografia,Turma Única,1,99,Lismaria Polato Francelin,INI1B,0,
+124,3418,História,Turma Única,2,124,Christine Vieira Da Maia Areias,INI1B,0,
+125,3580,Laboratório de Informática Aplicada,Turma Única,2,130,José Vieira Junior,INI1B,0,
+126,3458,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,INI1B,0,
+127,2904,Linguagem de Programação I - Python,Turma Única,2,24,Kátia Lívia Zambon,INI1B,1,3
+128,3504,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,INI1B,0,
+129,2950,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,INI1B,0,
+130,3472,Matemática,Turma Única,3,117,Ricardo Pessoa dos Santos,INI1B,0,
+131,2892,Matemática Aplicada,Turma Única,2,26,Luiz Eduardo Comin,INI1B,0,
+132,3387,Normas Técnicas e de Segurança,Turma Única,1,89,Paulo Rogério Pichelli,INI1B,0,
+133,3409,Química,Turma Única,2,106,Carmen Regina de Souza,INI1B,0,
+134,2956,Redação Técnica,Turma Única,1,31,Maria Regina Momesso,INI1B,0,
+135,2940,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI1B,0,
+136,3635,Aplicativos I,Turma Única,3,151,Rafael Junqueira Martarelli ,INI2A,1,"4,5,6,13"
+137,3595,Banco de Dados,Turma Única,3,125,Debora Barbosa Aires,INI2A,1,"4,5,6,13"
+138,3427,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,INI2A,0,
+139,3490,Educação Física,Turma Única,2,139,Elvis de Souza Malta,INI2A,0,
+140,3396,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,INI2A,0,
+141,3535,Física,Turma Única,2,116,Marcus Vinicius Gonçalves Vismara,INI2A,0,
+142,3448,Geografia,Turma Única,2,99,Lismaria Polato Francelin,INI2A,0,
+143,3435,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,INI2A,0,
+144,3419,História,Turma Única,2,124,Christine Vieira Da Maia Areias,INI2A,0,
+145,3592,Linguagem de Programação III - JAVA,Turma Única,2,125,Debora Barbosa Aires,INI2A,1,"4,5,6,13"
+146,3505,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,INI2A,0,
+147,2952,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,INI2A,0,
+148,3465,Matemática,Turma Única,3,96,Daniel Zarpelão Porcel,INI2A,0,
+149,2922,Química,Turma Única,2,35,Neivaldo Fernando Strutzel Saggin,INI2A,0,
+150,3608,Sistemas Operacionais,Turma Única,2,152,Vitor Assis Camargo,INI2A,1,"4,5,6,13"
+151,2941,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI2A,0,
+152,3638,Aplicativos I,Turma Única,3,151,Rafael Junqueira Martarelli ,INI2B,1,"4,5,6,13"
+153,3596,Banco de Dados,Turma Única,3,125,Debora Barbosa Aires,INI2B,1,"4,5,6,13"
+154,3428,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,INI2B,0,
+155,3491,Educação Física,Turma Única,2,139,Elvis de Souza Malta,INI2B,0,
+156,3397,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,INI2B,0,
+157,3538,Física,Turma Única,2,116,Marcus Vinicius Gonçalves Vismara,INI2B,0,
+158,3449,Geografia,Turma Única,2,99,Lismaria Polato Francelin,INI2B,0,
+159,3438,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,INI2B,0,
+160,3420,História,Turma Única,2,124,Christine Vieira Da Maia Areias,INI2B,0,
+161,3593,Linguagem de Programação III - JAVA,Turma Única,2,125,Debora Barbosa Aires,INI2B,1,"4,5,6,13"
+162,3506,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,INI2B,0,
+163,2953,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,INI2B,0,
+164,3466,Matemática,Turma Única,3,96,Daniel Zarpelão Porcel,INI2B,0,
+165,2925,Química,Turma Única,2,35,Neivaldo Fernando Strutzel Saggin,INI2B,0,
+166,3609,Sistemas Operacionais,Turma Única,2,152,Vitor Assis Camargo,INI2B,1,"4,5,6,13"
+167,2942,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI2B,0,
+168,3633,Análise e Projeto de Sistemas,Turma Única,3,151,Rafael Junqueira Martarelli ,INI3A,1,"5,6"
+169,3639,Aplicativos II,Turma Única,2,151,Rafael Junqueira Martarelli ,INI3A,1,"5,6"
+170,3429,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,INI3A,0,
+171,3398,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,INI3A,0,
+172,3477,Física,Turma Única,3,141,Francis Gabriel dos Santos Constante,INI3A,0,
+173,3450,Geografia,Turma Única,2,99,Lismaria Polato Francelin,INI3A,0,
+174,3439,Gestão de Negócios II,Turma Única,2,23,Jovita Mercedes Hojas Baenas,INI3A,0,
+175,2929,História,Turma Única,2,20,Flávio Henrique Simão Saraiva,INI3A,0,
+176,3497,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,INI3A,0,
+177,3714,Linguagem de Programação IV - C#,Turma Única,3,7,André Luiz Ribeiro Bicudo,INI3A,1,"5,6"
+178,3598,Linguagem de Programação VI - Java,Turma Única,3,125,Debora Barbosa Aires,INI3A,1,"5,6"
+179,3588,Linguagem de Programação V - PHP,Turma Única,3,118,Marcelo Cabello Peres ,INI3A,1,"5,6"
+180,2959,Língua Portuguesa e Literatura,Turma Única,4,4,Adriana da Silva Reghine Giorjão,INI3A,0,
+181,2893,Matemática,Turma Única,4,26,Luiz Eduardo Comin,INI3A,0,
+182,2916,Química,Turma Única,3,35,Neivaldo Fernando Strutzel Saggin,INI3A,0,
+183,2943,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI3A,0,
+184,3634,Análise e Projeto de Sistemas,Turma Única,3,151,Rafael Junqueira Martarelli ,INI3B,0,
+185,3640,Aplicativos II,Turma Única,2,151,Rafael Junqueira Martarelli ,INI3B,1,"5,6"
+186,3430,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,INI3B,0,
+187,3399,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,INI3B,0,
+188,3478,Física,Turma Única,3,141,Francis Gabriel dos Santos Constante,INI3B,0,
+189,3451,Geografia,Turma Única,2,99,Lismaria Polato Francelin,INI3B,0,
+190,3440,Gestão de Negócios II,Turma Única,2,23,Jovita Mercedes Hojas Baenas,INI3B,0,
+191,2930,História,Turma Única,2,20,Flávio Henrique Simão Saraiva,INI3B,0,
+192,3498,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,INI3B,0,
+193,3229,Linguagem de Programação IV - C#,Turma Única,3,7,André Luiz Ribeiro Bicudo,INI3B,1,"5,6"
+194,3599,Linguagem de Programação VI - Java,Turma Única,3,125,Debora Barbosa Aires,INI3B,1,"5,6"
+195,3589,Linguagem de Programação V - PHP,Turma Única,3,118,Marcelo Cabello Peres ,INI3B,1,"5,6"
+196,2960,Língua Portuguesa e Literatura,Turma Única,4,4,Adriana da Silva Reghine Giorjão,INI3B,0,
+197,2894,Matemática,Turma Única,4,26,Luiz Eduardo Comin,INI3B,0,
+198,2917,Química,Turma Única,3,35,Neivaldo Fernando Strutzel Saggin,INI3B,0,
+199,2944,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,INI3B,0,
+200,3565,Cálculos Mecânicos,Turma Única,2,75,Fernando Marcos Carneiro,MEC1,0,
+201,3624,Fundamentos da Matemática,Turma Única,2,96,Daniel Zarpelão Porcel,MEC1,0,
+202,3460,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,MEC1,0,
+203,3389,Normas Técnicas e de Segurança,Turma Única,2,89,Paulo Rogério Pichelli,MEC1,0,
+204,3548,Tecnologia Mecânica,Turma Única,2,36,Osmar Souza Boico,MEC1,0,
+205,3561,Cálculos Mecânicos,Turma Única,2,75,Fernando Marcos Carneiro,MEC2,0,
+206,3499,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,MEC2,0,
+207,3563,Instalações e Equipamentos Industriais,Turma Única,2,75,Fernando Marcos Carneiro,MEC2,0,
+208,3556,Órgãos de Máquinas,Turma Única,2,122,Lívio Marcos Josué,MEC2,0,
+209,2964,Redação Técnica,Turma Única,1,4,Adriana da Silva Reghine Giorjão,MEC2,0,
+210,3692,Automação Industrial,Turma Única,3,83,Francisco Paez Neto,MEC3,1,9
+212,3260,Computação Gráfica,Turma Única,2,59,Washington Luiz Bueno da Silva,MEC3,1,13
+213,3441,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,MEC3,0,
+214,3673,Hidráulica e Pneumática,Turma Única,3,148,Mateus Dóta de Lima,MEC3,1,10
+215,2971,Máquinas Térmicas e de Transporte,Turma Única,2,61,André Luis da Costa Rocha,MEC3,0,
+216,3549,Mecânica Prática,Turma Única,4,36,Osmar Souza Boico,MEC3,1,11
+217,2969,Resistência dos Materiais,Turma Única,2,61,André Luis da Costa Rocha,MEC3,1,14
+218,2935,Arte,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,MEI1,0,
+219,3431,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,MEI1,0,
+220,3566,Cálculos Mecânicos,Turma Única,2,75,Fernando Marcos Carneiro,MEI1,0,
+221,3492,Educação Física,Turma Única,2,139,Elvis de Souza Malta,MEI1,0,
+222,3400,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,MEI1,0,
+223,3526,Física,Turma Única,2,116,Marcus Vinicius Gonçalves Vismara,MEI1,0,
+224,3468,Fundamentos da Matemática,Turma Única,2,96,Daniel Zarpelão Porcel,MEI1,0,
+225,3452,Geografia,Turma Única,1,99,Lismaria Polato Francelin,MEI1,0,
+226,3421,História,Turma Única,2,124,Christine Vieira Da Maia Areias,MEI1,0,
+227,3461,Legislação Aplicada e Ética Profissional,Turma Única,2,34,Maurício Augusto de Souza Ruiz,MEI1,0,
+228,3507,Língua Inglêsa,Turma Única,2,143,Maria Cândida Correa,MEI1,0,
+229,2951,Língua Portuguesa e Literatura,Turma Única,3,31,Maria Regina Momesso,MEI1,0,
+230,3473,Matemática,Turma Única,3,117,Ricardo Pessoa dos Santos,MEI1,0,
+231,3390,Normas Técnicas e de Segurança,Turma Única,2,89,Paulo Rogério Pichelli,MEI1,0,
+232,3412,Química,Turma Única,2,106,Carmen Regina de Souza,MEI1,0,
+233,2945,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,MEI1,0,
+234,3544,Tecnologia Mecânica,Turma Única,2,36,Osmar Souza Boico,MEI1,0,
+235,3432,Biologia,Turma Única,2,69,João Alberto Zago Bevenuto,MEI2,0,
+236,3562,Cálculos Mecânicos,Turma Única,2,75,Fernando Marcos Carneiro,MEI2,0,
+237,3493,Educação Física,Turma Única,2,139,Elvis de Souza Malta,MEI2,0,
+238,3401,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,MEI2,0,
+239,3541,Física,Turma Única,2,116,Marcus Vinicius Gonçalves Vismara,MEI2,0,
+240,3453,Geografia,Turma Única,2,99,Lismaria Polato Francelin,MEI2,0,
+241,3422,História,Turma Única,2,124,Christine Vieira Da Maia Areias,MEI2,0,
+242,3500,Inglês Técnico,Turma Única,2,140,Camilla Celeste Koga Campos,MEI2,0,
+243,3564,Instalações e Equipamentos Industriais,Turma Única,2,75,Fernando Marcos Carneiro,MEI2,0,
+244,3508,Língua Inglesa,Turma Única,2,143,Maria Cândida Correa,MEI2,0,
+245,2962,Língua Portuguesa e Literatura,Turma Única,3,4,Adriana da Silva Reghine Giorjão,MEI2,0,
+246,3463,Matemática,Turma Única,3,96,Daniel Zarpelão Porcel,MEI2,0,
+247,3555,Órgãos de Máquinas,Turma Única,2,122,Lívio Marcos Josué,MEI2,0,
+248,3102,Química,Turma Única,2,29,Marcelo Rodrigues da Silva Pelissari,MEI2,0,
+249,2963,Redação Técnica,Turma Única,1,4,Adriana da Silva Reghine Giorjão,MEI2,0,
+250,2946,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,MEI2,0,
+251,2913,Biologia,Turma Única,2,13,Daniela Mancuso Roda,MEI3,0,
+252,3402,Filosofia,Turma Única,1,104,Anderson Luiz Pereira,MEI3,0,
+253,3479,Física,Turma Única,3,141,Francis Gabriel dos Santos Constante,MEI3,0,
+254,3454,Geografia,Turma Única,2,99,Lismaria Polato Francelin,MEI3,0,
+255,3442,Gestão de Negócios I,Turma Única,2,23,Jovita Mercedes Hojas Baenas,MEI3,0,
+256,2931,História,Turma Única,2,20,Flávio Henrique Simão Saraiva,MEI3,0,
+257,2961,Língua Portuguesa e Literatura,Turma Única,4,4,Adriana da Silva Reghine Giorjão,MEI3,0,
+258,2972,Máquinas Térmicas e de Transporte,Turma Única,2,61,André Luis da Costa Rocha,MEI3,0,
+259,2895,Matemática,Turma Única,4,26,Luiz Eduardo Comin,MEI3,0,
+260,2918,Química,Turma Única,3,35,Neivaldo Fernando Strutzel Saggin,MEI3,0,
+261,2947,Sociologia,Turma Única,1,30,Maria Cornelia Nogueira Paratella Franco,MEI3,0,
+262,"3641,3642,3643",Mecânica Prática,"Turma A,Turma B,Turma C",4,"36,122,75","Osmar Souza Boico,Lívio Marcos Josué,Fernando Marcos Carneiro",MEC1,1,11
+263,"3674,3553,3546",Mecânica Prática,"Turma A,Turma B,Turma C",4,"148,122,36","Mateus Dóta de Lima,Lívio Marcos Josué,Osmar Souza Boico",MEC2,1,11
+264,"3550,3545,3658",Mecânica Prática,"Turma A,Turma B,Turma C",4,"122,36,136","Lívio Marcos Josué,Osmar Souza Boico,Guilherme Toshio de Jesus ",MEI1,1,11
+265,"3551,3672,3660",Mecânica Prática,"Turma A,Turma B,Turma C",4,"122,148,136","Lívio Marcos Josué,Mateus Dóta de Lima,Guilherme Toshio de Jesus ",MEI2,1,11
+266,"3659,3554,3671",Mecânica Prática,"Turma A,Turma B,Turma C",4,"136,122,148","Guilherme Toshio de Jesus ,Lívio Marcos Josué,Mateus Dóta de Lima",MEI3,1,11
+267,"3531,3405","Física,Química","Laboratório - Turma B,Laboratório - Turma B",2,"116,106","Marcus Vinicius Gonçalves Vismara,Carmen Regina de Souza",ELI1,2,"1,2"
+268,"3533,2921","Física,Química","Laboratório - Turma A,Laboratório - Turma B",2,"116,35","Marcus Vinicius Gonçalves Vismara,Neivaldo Fernando Strutzel Saggin",ELI2,2,"1,2"
+269,"3482,3408","Física,Química","Laboratório - Turma B,Laboratório - Turma B",2,"141,106","Francis Gabriel dos Santos Constante,Carmen Regina de Souza",INI1A,2,"1,2"
+270,"3484,341","Física,Química","Laboratório - Turma A,Laboratório - Turma A",2,"141,106","Francis Gabriel dos Santos Constante,Carmen Regina de Souza",INI1B,2,"1,2"
+271,"3537,2924","Física,Química","Laboratório - Turma B,Laboratório - Turma B",2,"116,35","Marcus Vinicius Gonçalves Vismara,Neivaldo Fernando Strutzel Saggin",INI2A,2,"1,2"
+272,"3539,2927","Física,Química","Laboratório - Turma A,Laboratório - Turma B",2,"116,35","Marcus Vinicius Gonçalves Vismara,Neivaldo Fernando Strutzel Saggin",INI2B,2,"1,2"
+273,"3527,3414","Física,Química","Laboratório - Turma A,Laboratório - Turma B",2,"116,106","Marcus Vinicius Gonçalves Vismara,Carmen Regina de Souza",MEI1,2,"1,2"
+274,"3543,3103","Física,Química","Laboratório - Turma B,Laboratório - Turma A",2,"116,29","Marcus Vinicius Gonçalves Vismara,Marcelo Rodrigues da Silva Pelissari",MEI2,2,"1,2"
+275,"3678,3679,3215,3216","Informática Aplicada,Laboratório de Eletrotécnica Geral","Turma A,Turma B",4,"153,28","Jeferson André Bigheti,Marcelo Antonio Minorello",ELE1,2,"3,8"
+276,"3676,3677,3215,3216","Sistemas Digitais I,Laboratório de Eletrotécnica Geral","Turma A,Turma B",4,"153,28","Jeferson André Bigheti,Marcelo Antonio Minorello",ELE1,2,"7,8"
+277,"3696,3697,3129,3128","Informática Aplicada,Laboratório de Eletrotécnica Geral","Turma A,Turma B",4,"154,28","Giovanni Silva Tek,Marcelo Antonio Minorello",ELI1,2,"3,8"
+278,"3665,3666,3129,3128","Sistemas Digitais I,Laboratório de Eletrotécnica Geral","Turma A,Turma B",4,"126,28","Claudio Martius Giaretta Doria Vieira,Marcelo Antonio Minorello",ELI1,2,"7,8"
+279,"3699,3698,3125,3126","Laboratório de Eletrônica Básica,Sistemas Digitais II","Turma A,Turma B",6,"154,28","Giovanni Silva Tek,Marcelo Antonio Minorello",ELI2,2,"7,8"
+280,"3126,3125",Sistemas Digitais II,"Turma A,Turma B",2,28,Marcelo Antonio Minorello,ELI2,1,8
+281,"3645,3656,3654,3653","Laboratório de Eletrônica Industrial,Laboratório de Sistemas Microprocessados","Turma A,Turma B",6,"70,126","Jair Hilário Zorzi Junior,Claudio Martius Giaretta Doria Vieira",ELI3,3,"7,8,9"
+282,"3581,3582,2900,2901","Fundamentos de Informática,Técnicas de Programação","Turma A,Turma B",6,"130,24","José Vieira Junior,Kátia Lívia Zambon",INF1,2,"3,4"
+283,"3575,3576,2896,2897","Fundamentos de Informática,Técnicas de Programação","Turma A,Turma B",6,"130,24","José Vieira Junior,Kátia Lívia Zambon",INI1A,2,"3,4"
+284,"3579,3578,2898,2899","Fundamentos de Informática,Técnicas de Programação","Turma A,Turma B",6,"130,24","José Vieira Junior,Kátia Lívia Zambon",INI1B,2,"3,4"
+285,"3584,3585,3605,3603","Desenvolvimento Web - PHP,Linguagem de Programação II - C#","Turma A,Turma B",6,"118,152","Marcelo Cabello Peres,Vitor Assis Camargo",INI2A,2,"5,6"
+286,"3586,3587,3606,3604","Desenvolvimento Web - PHP,Linguagem de Programação II - C#","Turma A,Turma B",6,"118,152","Marcelo Cabello Peres,Vitor Assis Camargo",INI2B,2,"5,6"
+287,"3663,3664,3559,3560","Desenho Técnico Mecânico,Informática Aplicada","Turma A,Turma B",6,"136,75","Guilherme Toshio de Jesus ,Fernando Marcos Carneiro",MEC1,2,"5,13"
+288,"3253,3252,3558,3557","Desenho Técnico Mecânico,Informática Aplicada","Turma A,Turma B",6,"59,75","Washington Luiz Bueno da Silva,Fernando Marcos Carneiro",MEI1,2,"5,13"
+289,"3259,3258,3661,3662","Desenho Gráfico,Programação de Máquinas CNC","Turma A,Turma B",6,"59,136","Washington Luiz Bueno da Silva,Guilherme Toshio de Jesus",MEC2,2,"10,13"
+290,"3254,3255,3670,3668","Desenho Gráfico,Programação de Máquinas CNC","Turma A,Turma B",6,"59,148","Washington Luiz Bueno da Silva,Mateus Dóta de Lima",MEI2,2,"10,13"
+291,"3693,3694,3667,3669","Automação Industrial,Hidráulica e Pneumática","Turma A,Turma B",6,"83,148","Francisco Paez Neto,Mateus Dóta de Lima",MEI3,2,"9,10"
+292,"3256,3257,3383,3382","Computação Gráfica,Resistência dos Materiais","Turma A,Turma B",4,"59,61","Washington Luiz Bueno da Silva,André Luis da Costa Rocha",MEI3,2,"13,14"

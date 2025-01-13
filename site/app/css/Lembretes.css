@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    font-family: Krona One;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3292DA;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    font-size: 60px;
+    height: 15%;
+    background-color: #A9F5FF;
+    margin-bottom: 10px;
+}
+.divtitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20px;
+}
+#rectanglepng{
+    margin-right:10px;
+}
+.divbotao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    margin-bottom: -10px;
+}
+main{
+    flex: 1;
+    background-color: #3292DA;
+    display: grid;
+    grid-template: 20% 40% 40% / 45% 55%;
+}
+.teste2{
+    border-radius: 20px 20px;
+    margin: 20px;
+    grid-area: 1 / 2 / 4 / 3;
+    background-color: #38B0F3;
+}
+.teste{
+    border-radius: 20px 20px;
+    margin: 20px;
+    background-color: #80E1FB ;
+}
+footer{
+    height: 15%;
+    background-color: #3292DA;
+}

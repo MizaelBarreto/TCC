@@ -1,0 +1,83 @@
+import pulp
+
+# Dados de entrada
+professores = ['Claudio', 'Mauro', 'Lucia', 'Vitor']
+disciplinas = ['Matematica', 'Portugues', 'Artes', 'Ciencias', 'Geografia', 'Historia', 'Educação Física']
+prof_disciplinas = {
+    'Claudio': ['Matematica', 'Portugues'],
+    'Mauro': ['Artes', 'Ciencias'],
+    'Lucia': ['Geografia', 'Historia'],
+    'Vitor': ['Educação Física']
+}
+horarios = ['7:15-8:00', '8:00-8:45', '8:45-9:30', '10:00-10:45', '10:45-11:30', '11:30-12:15']
+dias_semana = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira']
+
+# Inicializando o problema
+problema = pulp.LpProblem("Organizar_Horarios", pulp.LpMaximize)
+
+# Variáveis de decisão
+x = pulp.LpVariable.dicts("x", ((prof, disc, horario, dia) for prof in professores for disc in disciplinas for horario in horarios for dia in dias_semana), 0, 1, pulp.LpBinary)
+
+# Restrição: cada horário em cada dia deve ter exatamente uma aula
+for horario in horarios:
+    for dia in dias_semana:
+        problema += pulp.lpSum(x[prof, disc, horario, dia] for prof in professores for disc in disciplinas) == 1
+
+# Restrição: cada professor deve dar no máximo uma aula por horário
+for prof in professores:
+    for horario in horarios:
+        for dia in dias_semana:
+            problema += pulp.lpSum(x[prof, disc, horario, dia] for disc in prof_disciplinas[prof]) <= 1
+
+# Restrição: cada professor só pode dar aulas das disciplinas que está habilitado
+for prof in professores:
+    for disc in disciplinas:
+        if disc not in prof_disciplinas[prof]:
+            for horario in horarios:
+                for dia in dias_semana:
+                    problema += x[prof, disc, horario, dia] == 0
+
+# Restrição: cada matéria (exceto Matemática e Português) pode ser ensinada apenas duas vezes por semana
+for disc in disciplinas:
+    if disc not in ['Matematica', 'Portugues']:
+        for prof in professores:
+            if disc in prof_disciplinas[prof]:
+                problema += pulp.lpSum(x[prof, disc, horario, dia] for horario in horarios for dia in dias_semana) <= 2
+
+# Restrição: Matemática e Português devem ser ensinados 10 vezes por semana
+for disc in ['Matematica', 'Portugues']:
+    for prof in professores:
+        if disc in prof_disciplinas[prof]:
+            problema += pulp.lpSum(x[prof, disc, horario, dia] for horario in horarios for dia in dias_semana) == 10
+
+# Restrição: Aulas de Educação Física devem ser consecutivas e no mesmo dia
+for dia in dias_semana:
+    problema += pulp.lpSum(x['Vitor', 'Educação Física', horario, dia] for horario in horarios) <= 2
+    for i in range(len(horarios) - 1):  # Alterado para evitar aulas de Educação Física no último horário
+        problema += x['Vitor', 'Educação Física', horarios[i], dia] - x['Vitor', 'Educação Física', horarios[i + 1], dia] <= 0
+        problema += x['Vitor', 'Educação Física', horarios[i + 1], dia] - x['Vitor', 'Educação Física', horarios[i], dia] >= 0
+
+# Restrição: A última aula do dia não pode ser de Educação Física
+for dia in dias_semana:
+    problema += x['Vitor', 'Educação Física', horarios[-1], dia] == 0
+
+# Restrição: Educação Física deve ser ensinada 2 vezes por semana
+problema += pulp.lpSum(x['Vitor', 'Educação Física', horario, dia] for horario in horarios for dia in dias_semana) == 2
+
+# Função objetivo (pode ser algo simples como maximizar a soma de aulas alocadas)
+problema += pulp.lpSum(x)
+
+# Resolvendo o problema
+problema.solve()
+
+# Imprimindo a tabela de horários
+def imprimir_tabela():
+    for dia in dias_semana:
+        print(f'\n{dia}:')
+        for horario in horarios:
+            for prof in professores:
+                for disc in disciplinas:
+                    if pulp.value(x[prof, disc, horario, dia]) == 1:
+                        print(f'{horario}: {disc} ({prof})')
+
+imprimir_tabela()

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root{
+    font-size: 16px;
+}
+
+*{
+    font-family: Krona One;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3292DA;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display:flex;
+    grid-template: 1fr / 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3rem;
+    height: 12%;
+    background-color: #A9F5FF;
+}
+.divtitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 2.5%;
+}
+
+.divbotao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto; /* add this */
+    margin-right: 1%;
+  }
+  a {
+    text-decoration: none;
+    margin-bottom: 1%;
+  }
+  
+main {
+    flex: 2;
+    display: flex; /* Changed from grid to flex */
+    width: 100%;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    justify-content: center; /* Added to center the box horizontally */  }
+  
+.boxmain {
+  /* Centering */
+  text-align: center;
+  /* Size and spacing */
+  font-size: 1.5rem;
+  padding: 1% 5% 1% 5%;
+  background-color: #38B0F3;
+  box-sizing: border-box;
+  border-radius: 1%;
+  /* Shadow */
+  box-shadow: 0 4px 8px rgba(1, 9, 87, 0.829), 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 100%;
+  /* Add a white border */
+  border: 1vh solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxmain div:not(.lines-container):not(.progresso) {
+  padding: 1% 5% 1% 5%;
+  background-color: #ffffff;
+  margin-top: 1%; /* keep the margin for other div elements */
+}
+.bottomstaticboxmain {
+  position: relative;
+  background-color: #ffffff;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.png{
+    margin-top: 1.5%;
+}
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/*---------------------Animação-----------------------------*/
+
+.lines-container {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1%;
+  flex-grow: 1;
+  overflow-y: hidden;
+} 
+
+.line {
+  position: relative;
+}
+
+.line span {
+  animation: slide-in 1s, fade-out 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateY(100%);
+}
+.informacoes {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contador {
+  font-size: 20px;
+  color: #000000; /* Texto preto */
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.barra-progresso {
+  max-width: 100%;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #ffffff; /* changed to black */
+  border: 2px solid #000000;
+  padding: 2px;
+  margin: 20px auto;
+  display: flex;
+}
+.barra-progresso .progresso {
+  width: 50%; /* Ajuste conforme o progresso real */
+  height: 100%; /* Mantendo a altura da barra interna */
+  border-radius: 8px;
+  margin: 0px;
+  background-color: #000000;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+    :root{
+        font-size: 8px;
+    }
+}

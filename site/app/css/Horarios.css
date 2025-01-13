@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+:root {
+    font-size: 16px;
+    --primary-blue: #1E88E5;
+    --secondary-blue: #64B5F6;
+    --light-blue: #BBDEFB;
+    --dark-blue: #1565C0;
+    --white: #FFFFFF;
+    --dark-blue-variation: #348ff8;
+}
+@media (min-width: 10px) {
+    :root{
+        font-size: 16px;
+    }
+    *{
+        font-family: Krona One;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: var(--light-blue);
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: min-content;
+        padding: 0 2%;
+        box-sizing: border-box;
+        border-bottom: 2px solid #ffffff;
+        padding-top: 0;
+        font-size: 2rem;
+        min-height: 9vh;
+        background-color: var(--primary-blue);
+        color: var(--white);
+        padding: 0 2.5%;
+      }
+
+    .divtitulo{
+        height: 12.5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        margin-left: 2.5%;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divbotao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+        margin-right: 2%;
+        
+    }
+    main{
+        padding-bottom: 1%;
+        flex: 1;
+        display:grid;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabela{
+        margin:1%;
+        width: 100%;
+        background-color: white;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .head{
+        color:white;
+        background-color: var(--dark-blue);
+        margin: 0;
+    }
+    td{
+        border: 1px solid;
+        border-color: var(--primary-blue);
+    }
+    .check{
+        pointer-events: all;
+        position:relative;
+        width:15%;
+    }
+    .check:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+    .check input:checked ~ .checkmark {
+        background-color: rgb(205, 50, 50);
+    }
+    .hora{
+        height: 6vh;
+        background-color: var(--dark-blue-variation);
+        text-align: center;
+        color:white;
+    }
+    .dia{
+        height: 4vh;
+        background-color: var(--dark-blue-variation);
+        text-align: center;
+        color:white;
+    }
+    .hd{
+        height: 4vh;
+        background-color: var(--dark-blue-variation)    ;
+        text-align: center;
+        font-size: 0.75rem;
+        color:white;
+    }
+    .check input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .checkmark {
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .botao{
+        width:10%;
+        height: 5vh;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        border-color: var(--dark-blue-variation)
+    }
+    .botao:hover{
+        background-color: lightgray;
+        cursor: pointer;
+    }
+    .disabled{
+        background-color: lightslategray;
+        user-select: none;
+        pointer-events: none;
+    }
+    .custom-select {
+        position: relative;
+        margin-top:4%;
+    }
+      
+    .custom-select select {
+        display: none; /*hide original SELECT element:*/
+    }
+      
+    .select-selected {
+        background-color: white;
+    }
+      
+      /*style the arrow inside the select element:*/
+    .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 16px;
+        right: 13px;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-color: #000000 transparent transparent transparent;
+    }
+      
+      /*point the arrow upwards when the select box is open (active):*/
+    .select-selected.select-arrow-active:after {
+        border-color: transparent transparent #000000 transparent;
+        top: 10px;
+    }
+      
+      /*style the items (options), including the selected item:*/
+    .select-items div,.select-selected {
+        color: black;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        cursor: pointer;
+        user-select: none;
+    }
+      
+      /*style items (options):*/
+    .select-items {
+        position: absolute;
+        background-color: white;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+      
+      /*hide the items when the select box is closed:*/
+    .select-hide {
+        display: none;
+    }
+      
+      .select-items div:hover, .same-as-selected {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    #horarios{
+        width:80%;
+        margin-left:-15%;
+        display:grid;
+        grid-template-columns:20% 80%;
+        justify-content:start;
+        align-items:start;
+    }
+    .selec{
+        width:70%;
+    }
+    .sabado{
+        background-color: darkgray;
+        width:15%;
+    }
+    ::-webkit-scrollbar {
+        width: 15px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background-color: var(--dark-blue-variation);
+        color: var(--white);
+        padding-top: 5px;
+      }
+      .side-container::-webkit-scrollbar-track {
+        background-color: var(--white);
+        color: var(--white);
+      }
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: var(--white); 
+        border-radius: 10px;
+        margin: 0 5px 0 5px;
+        border: 2px solid var(--primary-blue);
+        margin-left: 10px;
+      }
+}
+.header-left {
+    display: flex;
+    align-items: center;
+  }
+  .log-off-button {
+    background-color: var(--secondary-blue);
+    color: var(--white);
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-left: 3vh;
+  }
+  
+  .log-off-button:hover {
+    background-color: var(--primary-blue);
+  }
+  
+  .log-off-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--dark-blue);
+  }

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root{
+    font-size: 8px;
+}
+
+*{
+    font-family: Krona One;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3292DA;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.5rem;
+    height: 15%;
+    background-color: #A9F5FF;
+}
+.divtitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 2.5%;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divbotao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 2%;
+}
+main{
+    flex: 1;
+    display:grid;
+    width: 100%;
+    padding: 0% 10%;
+    box-sizing: border-box;
+    grid-template: 1fr 1fr 1fr / 1fr;
+
+}
+.item{
+    justify-self: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10%;
+    box-sizing: border-box;
+    background-color: white;
+    grid-area: 1/1;
+    margin: 10% 0;
+    border-radius: 20px 20px;
+    width: 80%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.item p{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 10%;
+}
+.item a{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+.item_2{
+    font-size: 1.75rem;
+    grid-area: 2/1;
+}
+.item_3{
+    font-size: 1.75rem;
+    grid-area: 3/1;
+}
+.png3{
+    margin-top: 1.5%;
+    width:55%;
+    height:40%;
+}
+.png{
+    margin-top: 1.5%;
+    width:50%;
+    height:40%;
+}
+@media (min-width: 786px) {
+    :root{
+        font-size: 16px;
+    }
+    *{
+        font-family: Krona One;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #3292DA;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: grid;
+        grid-template: 1fr / 1fr 1fr;
+        flex-direction: row;
+        align-items: center;
+        font-size: 3rem;
+        height: 15%;
+        background-color: #A9F5FF;
+    }
+    .divtitulo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        margin-left: 2.5%;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divbotao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+        margin-right: 2%;
+    }
+    main{
+        flex: 1;
+        display:grid;
+        width: 100%;
+        padding: 0% 10%;
+        box-sizing: border-box;
+        grid-template: 1fr/ 1fr 1fr 1fr;
+    
+    }
+    .item{
+        justify-self: center;
+        text-align: center;
+        font-size: 1.25rem;
+        padding: 10%;
+        box-sizing: border-box;
+        background-color: white;
+        grid-area: 1/1;
+        margin: 25% 0;
+        border-radius: 20px 20px;
+        width: 80%;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .item p{
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        width: 80%;
+        padding: 10%;
+    }
+    .item a{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item_2{
+        font-size: 1.5rem;
+        grid-area: 1/2;
+    }
+    .item_3{
+        font-size: 1.5rem;
+        grid-area: 1/3;
+    }
+    .png3{
+        margin-top: 1.5%;
+        width:55%;
+        height:40%;
+    }
+    .png{
+        margin-top: 1.5%;
+        width:50%;
+        height:40%;
+    }
+
+}
